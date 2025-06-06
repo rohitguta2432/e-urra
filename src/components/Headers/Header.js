@@ -5,7 +5,7 @@ import '../Headers/Header.scss'
 function Header() {
     const productCount = sessionStorage.getItem('productCount')
     return (
-        <>div
+        <>
             <header>
                 <div className="container">
                     <div className="row">
